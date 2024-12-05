@@ -54,8 +54,24 @@ Kompetisi ini menggunakan **F1 Score** untuk mengevaluasi keseimbangan antara **
 
 ### Rumus F1 Score:  
 \[
-F1 = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
+F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
 \]  
+
+### Komponen Evaluasi:  
+- **Accuracy**:  
+  \[
+  \text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}}
+  \]  
+
+- **Precision**:  
+  \[
+  \text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}
+  \]  
+
+- **Recall**:  
+  \[
+  \text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}
+  \]  
 
 **Penilaian:**  
 - **70% Leaderboard:** Berdasarkan hasil prediksi terbaik pada leaderboard.  
