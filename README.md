@@ -1,4 +1,4 @@
-_# CCI Summit Kaggle Competition 2024  
+# CCI Summit Kaggle Competition 2024  
 
 ## Kompetisi: Pendapatan Individual Berdasarkan Data Demografis  
 
