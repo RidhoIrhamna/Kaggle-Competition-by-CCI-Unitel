@@ -1,4 +1,4 @@
-# CCI Summit Kaggle Competition 2024  
+_# CCI Summit Kaggle Competition 2024  
 
 ## Kompetisi: Pendapatan Individual Berdasarkan Data Demografis  
 
@@ -53,17 +53,17 @@ Dataset yang digunakan memiliki beberapa kolom fitur dengan deskripsi berikut:
 Kompetisi ini menggunakan **F1 Score** untuk mengevaluasi keseimbangan antara **precision** dan **recall**, terutama pada dataset yang tidak seimbang.  
 
 ### Rumus F1 Score:  
-\[ F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]  
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ### Komponen Evaluasi:  
 - **Accuracy**:  
-  \[ \text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}} \]  
+  Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
 - **Precision**:  
-  \[ \text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}} \]  
+  Precision = TP / (TP + FP)
 
 - **Recall**:  
-  \[ \text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}} \]  
+  Recall = TP / (TP + FN)
 
 **Penilaian:**  
 - **70% Leaderboard:** Berdasarkan hasil prediksi terbaik pada leaderboard.  
@@ -86,3 +86,4 @@ Kompetisi ini menggunakan **F1 Score** untuk mengevaluasi keseimbangan antara **
 
 **Tim Busan Hitam**  
 _CCI Summit Kaggle Competition 2024_  
+_
